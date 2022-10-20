@@ -27,7 +27,7 @@
 - Создать и настроить объекты на сцене в Unity
 - Создать скрипт для Roller Agent'а:
 
-#code
+```c#
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -84,25 +84,6 @@ public class RollerAgent : Agent
         }
     }
 }
-
-
-```py
-
-In [ ]:
-#Import the required modules, numpy for calculation, and Matplotlib for drawing
-import numpy as np
-import matplotlib.pyplot as plt
-#This code is for jupyter Notebook only
-%matplotlib inline
-
-# define data, and change list to array
-x = [3,21,22,34,54,34,55,67,89,99]
-x = np.array(x)
-y = [2,22,24,65,79,82,55,130,150,199]
-y = np.array(y)
-
-#Show the effect of a scatter plot
-plt.scatter(x,y)
 
 ```
 
